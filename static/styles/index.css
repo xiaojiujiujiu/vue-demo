@@ -1,0 +1,13 @@
+.content{
+    position: absolute;
+    top:40px;
+    bottom: 50px;
+    color: #fff;
+    background: black;
+    overflow-y:auto; 
+    width: 100%;
+}
+.content p{
+    font-size: 12px;
+    line-height: 30px;
+}

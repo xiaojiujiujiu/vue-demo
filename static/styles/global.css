@@ -1,0 +1,110 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background: white;
+}
+header .icon{
+    width: 20px;
+    height: 20px;
+}
+header .icon-sys{
+    background: url('../img/icon-sys.png') no-repeat center;
+    background-size: contain;
+}
+header .icon-kf{
+    background: url('../img/icon-kf.png') no-repeat center;
+    background-size: contain;
+}
+header .iconHome{
+    background: url('../img/icon-home.png') no-repeat center;
+    background-size: contain;
+}
+.page-title{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+    z-index: 9999;
+    background: white;
+}
+.footer-icon{
+    font-size: 11px;
+    line-height: 73px;
+    height: 50px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+.footer-icon::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 7px;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: center center;
+}
+.footer-icon.active span{
+    color: #f85415;
+}
+footer .footer-car::after {
+    background-image: url('../img/icon-car.png');
+}
+
+footer .footer-car.active::after {
+    background-image: url('../img/icon-car2.png');
+}
+footer .footer-pm::after {
+    background-image: url('../img/icon-pm.png');
+}
+
+footer .footer-pm.active::after {
+    background-image: url('../img/icon-pm2.png');
+}
+footer .footer-dy::after {
+    background-image: url('../img/icon-dy.png');
+}
+
+footer .footer-dy.active::after {
+    background-image: url('../img/icon-dy2.png');
+}
+footer .footer-user::after {
+    background-image: url('../img/icon-user.png');
+}
+
+footer .footer-user.active::after {
+    background-image: url('../img/icon-user2.png');
+}
