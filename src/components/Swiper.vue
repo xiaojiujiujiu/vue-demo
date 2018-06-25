@@ -31,6 +31,12 @@ export default {
                 scrollbar: {
                     el: '.swiper-scrollbar',
                 },
+                on: {
+                    //解决 手动滑动后 不自动轮播
+                    slideChangeTransitionEnd: function(){
+                        this.autoplay.start()
+                    }
+                }
             })        
         })
     },

@@ -2,12 +2,42 @@
     position: absolute;
     top:40px;
     bottom: 50px;
-    color: #fff;
-    background: black;
     overflow-y:auto; 
     width: 100%;
+    background-color: #f5f5f5;
 }
-.content p{
-    font-size: 12px;
-    line-height: 30px;
+.content-pic{
+    margin: .2rem 0;
+    padding: .24rem .3rem;
+    background: white;
+    overflow: hidden;
 }
+.content-pic .pic{
+    float: left;
+    width:4.07rem;
+    height: 2.83rem;
+    background: url(../img/pic-1.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    font-size:.24rem;
+    color:white; 
+}
+.content-pic .pic-r{
+    width: 2.62rem;
+    float: right;
+    background: none;
+}
+.content-pic .pic-r .pic-r-t{
+    width: 100%;
+    height: 1.32rem;
+    background: url(../img/pic-2.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    margin-bottom: .18rem;
+}
+.content-pic .pic-r .pic-r-b{
+    width: 100%;
+    height: 1.32rem;
+    background: url(../img/pic-3.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+

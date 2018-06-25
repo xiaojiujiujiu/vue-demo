@@ -4,58 +4,13 @@
       <Header :pagetitle="pagetitle"></Header>
        <div class="content">
             <Swiper :swiperList='swiperList' ></Swiper>
-            <Swiper :swiperList='swiperList2'></Swiper>
-            <div class="content-info">
-                <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                     <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                 <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                  <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                   <p>wfeiwfiwfeiwfhwhfiwfh</p>
-                    <p>wfeiwfiwfeiwfhwhfiwfh</p>
+            <div class="content-pic">
+                <div class="pic">
+                </div>
+                <div class="pic pic-r">
+                   <p class="pic-r-t"></p>
+                   <p class="pic-r-b"></p>
+                </div>
             </div>
        </div>
   </div>
@@ -73,11 +28,6 @@ export default {
           {id:1,imgUrl:'../../static/img/1.png'},
           {id:2,imgUrl:'../../static/img/2.png'},
           {id:3,imgUrl:'../../static/img/3.png'},
-      ],
-      swiperList2:[
-          {id:1,imgUrl:'../../static/img/4.png'},
-          {id:2,imgUrl:'../../static/img/5.png'},
-          {id:3,imgUrl:'../../static/img/6.png'},
       ],
     };
   },
