@@ -68,26 +68,26 @@ export default {
       name: "嘻嘻哈哈",
       pagetitle: "首页",
       swiperList:[
-          {id:1,imgUrl:'../../static/img/1.png'},
-          {id:2,imgUrl:'../../static/img/2.png'},
-          {id:3,imgUrl:'../../static/img/3.png'},
+          {id:1,imgUrl:'./static/img/1.png'},
+          {id:2,imgUrl:'./static/img/2.png'},
+          {id:3,imgUrl:'./static/img/3.png'},
       ],
       scrollList:[
-        {id:1,imgUrl:'../../static/img/1.jpg',desc:'装备维修'},
-        {id:2,imgUrl:'../../static/img/2.jpg',desc:'查报价'},
-        {id:3,imgUrl:'../../static/img/3.jpg',desc:'查违章'},
-        {id:4,imgUrl:'../../static/img/4.jpg',desc:'物流服务'},
-        {id:5,imgUrl:'../../static/img/2.jpg',desc:'查报价'},
-        {id:6,imgUrl:'../../static/img/3.jpg',desc:'查违章'},
-        {id:7,imgUrl:'../../static/img/4.jpg',desc:'物流服务'},
+        {id:1,imgUrl:'./static/img/1.jpg',desc:'装备维修'},
+        {id:2,imgUrl:'./static/img/2.jpg',desc:'查报价'},
+        {id:3,imgUrl:'./static/img/3.jpg',desc:'查违章'},
+        {id:4,imgUrl:'./static/img/4.jpg',desc:'物流服务'},
+        {id:5,imgUrl:'./static/img/2.jpg',desc:'查报价'},
+        {id:6,imgUrl:'./static/img/3.jpg',desc:'查违章'},
+        {id:7,imgUrl:'./static/img/4.jpg',desc:'物流服务'},
       ],
       imgList:[
-          {id:1,imgUrl:'../../static/img/1.png'},
-          {id:2,imgUrl:'../../static/img/2.png'},
-          {id:3,imgUrl:'../../static/img/3.png'},
-          {id:4,imgUrl:'../../static/img/4.png'},
-          {id:5,imgUrl:'../../static/img/5.png'},
-          {id:6,imgUrl:'../../static/img/6.png'},
+          {id:1,imgUrl:'./static/img/1.png'},
+          {id:2,imgUrl:'./static/img/2.png'},
+          {id:3,imgUrl:'./static/img/3.png'},
+          {id:4,imgUrl:'./static/img/4.png'},
+          {id:5,imgUrl:'./static/img/5.png'},
+          {id:6,imgUrl:'./static/img/6.png'},
       ],
     };
   },
@@ -97,7 +97,13 @@ export default {
   },
 };
 </script>
-<style>
+<style lang='scss' type='text/css'>
 @import "../../static/styles/index.css";
+$primary-color: rgb(112, 11, 11);
+.news .news-title a{
+  color:$primary-color;
+  cursor: pointer;
+}
+
 </style>
 
