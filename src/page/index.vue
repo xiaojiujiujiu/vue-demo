@@ -28,6 +28,33 @@
                 <p>{{item.desc}}</p>
               </div>
             </section>
+            <section class="news">
+                <div class="news-title">
+                   <h5>最新资讯</h5>
+                   <a href="#">查看更多</a>
+                </div>
+                <div class="news-list">
+                    <div class="item-flex2">
+                      <p>汽车街携手上汽为客户带来二手车拍卖服务</p>
+                      <p>2017-04-31</p>
+                    </div>
+                    <div class="item">
+                      <img src="../../static/img/car-1.png" alt="">
+                    </div>
+                </div>
+                 <div class="news-list">
+                    <div class="item-flex2">
+                      <p>汽车街携手上汽为客户带来二手车拍卖服务汽车街携手上汽为客户带来二手车拍卖服务汽车街携手上汽为客户带来二手车拍卖服务汽车街携手上汽为客户带来二手车拍卖服务</p>
+                      <p>2017-04-31</p>
+                    </div>
+                    <div class="item">
+                      <img src="../../static/img/car-1.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <div class="img-list">
+                <img v-for="(item,index) in imgList" v-lazy="item.imgUrl" :key="index">
+            </div>
        </div>
   </div>
 </template>
@@ -53,7 +80,15 @@ export default {
         {id:5,imgUrl:'../../static/img/2.jpg',desc:'查报价'},
         {id:6,imgUrl:'../../static/img/3.jpg',desc:'查违章'},
         {id:7,imgUrl:'../../static/img/4.jpg',desc:'物流服务'},
-      ]
+      ],
+      imgList:[
+          {id:1,imgUrl:'../../static/img/1.png'},
+          {id:2,imgUrl:'../../static/img/2.png'},
+          {id:3,imgUrl:'../../static/img/3.png'},
+          {id:4,imgUrl:'../../static/img/4.png'},
+          {id:5,imgUrl:'../../static/img/5.png'},
+          {id:6,imgUrl:'../../static/img/6.png'},
+      ],
     };
   },
   components: {
